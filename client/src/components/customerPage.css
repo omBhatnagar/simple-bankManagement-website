@@ -1,0 +1,39 @@
+.main {
+  text-align: center;
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  height: 100vh;
+}
+
+.header-img {
+  pointer-events: none;
+  /* object-fit: contain; */
+  max-width: 100%;
+  height: auto;
+}
+
+.header1 {
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-text {
+  top: 40%;
+  position: absolute;
+  width: 100%;
+}
+
+.header-text h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  align-items: center;
+  letter-spacing: 0.5em;
+  font-family: "Zen Old Mincho", serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

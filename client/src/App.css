@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@700&display=swap");
+
+.App {
+  text-align: center;
+  /* position: relative; */
+  /* display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin: 0px;
+  outline: none;
+  vertical-align: top; */
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+}
+
+.App-logo {
+  pointer-events: none;
+  /* object-fit: contain; */
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header-grid {
+  top: 30%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.grid-text {
+  color: white;
+  padding-left: 20%;
+  font-size: 4.5rem;
+  text-align: left;
+  align-items: center;
+}
+
+.about-content {
+  /* position: absolute; */
+  width: 100%;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgb(240, 240, 240);
+}
+
+p {
+  padding-left: 4.5%;
+  padding-right: 5.5%;
+}
+
+.customer-wrap {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.hr-main {
+  width: 40%;
+  color: black;
+  border: 1px solid rgb(116, 116, 116);
+  margin: auto;
+}
+
+.customer-heading {
+  letter-spacing: 7px;
+  padding: 20px;
+  font-family: "Zen Old Mincho", serif;
+}
+
+.customer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

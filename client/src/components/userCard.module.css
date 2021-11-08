@@ -1,0 +1,103 @@
+.customer {
+  flex: 0 0 25%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 40px 20px;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+  max-width: 20%;
+  min-width: 10%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.customerlmao {
+  flex: 0 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 40px 20px;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  max-width: 20%;
+  min-width: 10%;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.customerlmao:hover {
+  box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.customerlmao hr {
+  width: 40%;
+  color: black;
+}
+
+.customer:hover {
+  box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.customer hr {
+  width: 40%;
+  color: black;
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: left;
+}
+
+.name {
+  padding: 35px 10px 20px;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.email {
+  padding: 0px 7px;
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.balance {
+  color: grey;
+  font-size: 1rem;
+}
+
+.btn {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.btn button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}

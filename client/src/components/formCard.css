@@ -1,0 +1,67 @@
+.form-wrap {
+  /* flex: 0 100%; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 40px 0%;
+  padding: 1%;
+  padding-bottom: 15%;
+  width: 40%;
+  height: 15em;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  background: white;
+  /* align-items: center; */
+  transition: 0.3s;
+  /* overflow: hidden; */
+}
+
+.form-wrap:hover {
+  box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-wrap p {
+  text-align: left;
+  padding-left: 15%;
+}
+
+.input-text {
+  border: none;
+  border-bottom: 2px solid black;
+  transition: 0.3s;
+}
+
+.input-text:focus {
+  border: none;
+  /* border-bottom: 2px solid black; */
+  box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn1 {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.btn1:hover {
+  opacity: 0.8;
+}
+
+.transaction-form {
+  margin: 40px 20px;
+  width: 60%;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+  overflow: hidden;
+}
